@@ -1,0 +1,205 @@
+﻿
+body {
+	background-color: #fff;
+	font-family: "Roboto";
+	font-size: 18px;
+	line-height: 1.7; 
+}
+
+h1 {
+	font-size: 60px;
+	font-size: 60px;
+	font-weight: normal;
+	padding: 10px 0;
+	
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: normal;
+}
+
+.block_header {
+	background-image: url(../img/iphone.png);
+	color: #fff;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.section1 {
+	max-width: 1200px;
+}
+
+.header_navigation {
+	overflow: hidden;
+	padding: 20px 0 50px 0;
+	color: #fff;
+
+}
+
+a.logo {
+	width: 40px;
+	float: left;
+	display: block;
+	font: bold italic 38px Roboto;
+	color: #fff;
+}
+
+.navigation {
+	width: calc(100% - 40px);
+	display: block;
+	float: left;
+	text-align: right;
+	color: #fff;
+}
+
+.navigation li {
+	display: inline;
+	padding: 10px;
+}
+
+.navigation li:hover,  .navigation li.active {
+	background-color: #c7b39b;
+	}
+
+.header_icon {
+	padding: 70px 0 40px 0;
+}
+
+.head_right_block {
+	width: 60%;
+}
+
+.down_icon {
+	padding: 50px 20px 200px 0;
+}
+
+.section2 {
+	background-image: url(../img/plan_a_diet.png);
+	background-size: cover;
+}
+
+.cycle {
+	height: 500px;
+	width: 500px;
+	border: 2px solid #e7e7e7;
+	border-radius: 50%;
+}
+.img_selection2 {
+	display: block;
+	float: left;
+	margin: 7px 7px 7px 0;
+}
+
+.green__h2 {
+	color: #2ecc71;
+}
+
+footer {
+	background-image: url(../img/footer.png);
+	background-size: cover;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.maxsize_txt {
+	font-size: 48px;
+}
+
+.centeraligne {
+	text-align: center;
+	padding: 100px 140px;
+
+}
+
+.block_select2 {
+	text-align: center;
+	padding: 100px 140px 565px 140px;
+
+}
+.size_p {
+	padding-left: inherit; /*здесь не получается сократить, если прописать в одной строке - не срабатывает*/
+	padding-right: inherit;
+}
+
+.butten_app {
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 8px 50px;
+    color: #2ecc71;
+}
+.futer_app {
+	padding-top: 55px;
+}
+.section3 {
+    padding: 100px 0;
+}
+
+.sect_3 {
+	float: left;
+	width: 50%;
+}
+
+.meal_time {
+	float: right;
+	width: 40%;
+}
+
+.meal_time .meal_time_elem {
+	border: 1px solid #eceded;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	padding: 15px;
+	margin-top: 20px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.meal_time_elem img {
+	float: left;
+	width: 25%;
+	display: block;
+}
+.meal_time_elem span {
+	display: block;
+}
+
+.col2 {
+	float: left;
+	width: 55%;
+	padding-left: 10px;
+}
+
+.col3 {
+	float: left;
+	width: 15%;
+	text-align: right;
+}
+
+#span1, #span12, #span13 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #2ecc71;
+}
+
+#span3, #span32, #span33 {
+	font-weight: bold;
+	color: #2ecc71;
+}
+
+#span4, #span42, #span43 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2ecc71;
+}
+
+#span5, #span52, #span53 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #c3c3c3;
+}
+
